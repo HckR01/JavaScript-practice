@@ -93,3 +93,4 @@ function playerSelection(choice) {
 rockBtn.addEventListener("click", () => playerSelection('rock'));
 paperBtn.addEventListener("click", () => playerSelection('paper'));
 scissorsBtn.addEventListener("click", () => playerSelection('scissors'));
+//complete of project
