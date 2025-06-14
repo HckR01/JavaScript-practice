@@ -14,3 +14,6 @@ name = "Doe"; // reassigning let is allowed
 console.log("ID:", id);
 console.log("Name:", name);
 console.log("Age:", age);
+
+
+//var is not use coz it has global scope it can be change everywhere so we can use let

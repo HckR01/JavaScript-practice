@@ -13,5 +13,5 @@ let mystr = "Hello World";
 let myarr2 = mystr.split(""); // split string into array of characters
 
 
-//now use sprad operator to merge two arrays
+//now use spread operator to merge two arrays
 let myarr3 = [...myarr, ...myarr2]; // merge two arrays
