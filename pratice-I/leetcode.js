@@ -10,3 +10,4 @@ var n =10
 let increment=()=>n++
 
 console.log(increment(),increment(),increment())
+//leet code update
