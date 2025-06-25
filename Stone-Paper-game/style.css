@@ -1,69 +1,77 @@
-*{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family:poppins, sans-serif;
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
+/* Body background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      background-color: #6d6d6d;
-      height: 500px;
-      width: 500px;
-      display: flex;
-      flex-direction: column;
-      color:white;
-      
-      justify-content: center;
-      align-items: center;
+/* Main container */
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
 }
 
-.container h1{
-      font-family: 'Poppins', sans-serif;
-    font-size: 2.7rem;
-    
-    margin-top: 20px;
-    margin: 5px;
-    padding-bottom: 70px;
-    display: flex;
-    align-items: center;
-}
-.score{
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      width: 100%;
-      padding: 5 20px;
-}
-.btn{
-      padding-top: 20px;
-      
-      
+/* Heading */
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #00ffc8;
 }
 
-button{
-      /* display: flex; */
-      flex-direction: column;
-      background-color: #ffffff;
-      color: black;
-      height: 40px;
-      width: 100px;
-      border-radius: 5px;
-      border: none;
-      cursor: pointer;
-      font-size: 1.2rem;
-      transition: all 0.3s ease-in-out;
+/* Score section */
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
 }
 
-#result{
-      padding-top:20px ;
+.score h2 {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+/* Buttons */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  
+}
+
+.btn button {
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #1e90ff;
+}
+
+/* Result section */
+#result {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
 }
