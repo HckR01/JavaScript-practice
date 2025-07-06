@@ -16,3 +16,7 @@ console.log(hobbi)
 //removing from first
 hobbi.shift()
 console.log(hobbi)
+
+//replace array element through index
+hobbi[1]='dancing'
+console.log(hobbi)
